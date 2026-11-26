@@ -49,6 +49,7 @@
 | [results](results) | 全部评测结果、演示视频 |
 | [reports](reports) | 早期阶段（11-23 到 11-24）的报告、视频、真机日志 |
 | [docs/TRAINING.md](docs/TRAINING.md) | **复现步骤**：每一步的完整命令和版本历史 |
+| [docs/DATA.md](docs/DATA.md) | **数据说明**：数据从哪来、怎么处理、格式（单段和打包）、训练/评测/部署各用了哪些数据 |
 | [docs/PITFALLS.md](docs/PITFALLS.md) | **踩坑记录**：25 个坑，每个写了现象、原因、怎么解决 |
 | [results/training_curves](results/training_curves) | 每次训练的逐轮指标（CSV）和 v10 链路的训练曲线图 |
 | [docs/README_earlier_stages.md](docs/README_earlier_stages.md) | 早期方案（v3 PPO 起身 + 每支舞一个 ONNX）的说明 |
@@ -74,7 +75,7 @@ bash stop_getup.sh         # 停止并把控制交还给宇树的 ai 服务
 * **LAFAN1**：CC BY-NC-ND 4.0，不允许分发改编后的版本。起身动作 `lafan_prone/supine.npz` 是从它切出来并重定向到 G1 的。
 * **权重**是用以上数据训练的，能否公开还没有确认，所以也没有放进来。
 
-自己生成数据：
+数据的来源、格式和用法见 [docs/DATA.md](docs/DATA.md)。自己生成数据：
 
 1. 在 Hugging Face 同意 BONES-SEED 的条款，下载 `g1.tar.gz` 和 metadata。
 2. 获取 LAFAN1 的 G1 重定向 CSV（`fallAndGetUp*`）。
