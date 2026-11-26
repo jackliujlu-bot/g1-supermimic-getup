@@ -1,0 +1,16 @@
+live1_init_q.npy stood 1/6 t [None, None, 8.0, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 22.8
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 20.0
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 19.8
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 20.4
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 20.2
+live1_stuck.npy stood 1/6 t [None, None, 8.18, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.6
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.8
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.4
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.7
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.3
+live2_track_start.npy stood 3/6 t [None, 18.52, 20.68, 9.3, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 16.0
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.8
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.7

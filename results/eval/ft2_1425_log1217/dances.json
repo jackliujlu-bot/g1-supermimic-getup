@@ -1,0 +1,21 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9895833333333334,
+ "body_pos_err_m": 0.5242723425229391,
+ "joint_pos_err_rad": 0.7350098292032877,
+ "failed_clips": [
+  "dance_basic_padeburee_270_R_loop_001__A325",
+  "dance_hiphop_hip_hop_iv_R_001__A320",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A310",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A306",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A309",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A307",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A310",
+  "dance_latino_jive_sequence_R_004__A324",
+  "dance_western_ridding_alone_4_directions_004__A307",
+  "dance_western_ridding_alone_R_003__A307",
+  "dance_western_ridding_alone_R_004__A307"
+ ]
+}

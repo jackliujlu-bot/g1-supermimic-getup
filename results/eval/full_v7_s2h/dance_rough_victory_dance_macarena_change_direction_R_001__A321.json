@@ -1,0 +1,396 @@
+{
+ "results": [
+  {
+   "scenario": "boot_standing",
+   "seed": 1000,
+   "ok": false,
+   "t_stand": null,
+   "upright_end": true,
+   "end_pose_err": 0.169,
+   "end_qd": 1.59,
+   "end_qd_true": 1.6,
+   "end_jitter_joint": 6,
+   "hits_by_mode": {},
+   "excess_by_mode": {
+    "TRACK": 0.0
+   },
+   "path": "boot_standing>TRACK:stand ref:stand",
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.793,
+   "arm_span": 0.6,
+   "splay_span": 0.2,
+   "max_torque_ratio": 0.84,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.32,
+   "peak_ground_force_bw": 2.5,
+   "fp_r0": 0.286,
+   "fp_max": 0.362,
+   "aisle_width": 0.0,
+   "sweep_area_m2": 0.085,
+   "limb_reach_m": 0.236,
+   "fp_excess": 0.077,
+   "wall_hit_ticks": 0,
+   "wall_peak_force_bw": 0.0
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1001,
+   "ok": false,
+   "t_stand": null,
+   "upright_end": true,
+   "end_pose_err": 0.308,
+   "end_qd": 2.16,
+   "end_qd_true": 1.91,
+   "end_jitter_joint": 13,
+   "hits_by_mode": {},
+   "excess_by_mode": {
+    "TRACK": 0.0
+   },
+   "path": "boot_standing>TRACK:stand ref:stand",
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.788,
+   "arm_span": 0.6,
+   "splay_span": 0.18,
+   "max_torque_ratio": 0.85,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.23,
+   "peak_ground_force_bw": 2.46,
+   "fp_r0": 0.286,
+   "fp_max": 0.356,
+   "aisle_width": 0.0,
+   "sweep_area_m2": 0.085,
+   "limb_reach_m": 0.236,
+   "fp_excess": 0.071,
+   "wall_hit_ticks": 0,
+   "wall_peak_force_bw": 0.0
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1002,
+   "ok": false,
+   "t_stand": null,
+   "upright_end": true,
+   "end_pose_err": 0.187,
+   "end_qd": 1.88,
+   "end_qd_true": 1.98,
+   "end_jitter_joint": 10,
+   "hits_by_mode": {},
+   "excess_by_mode": {
+    "TRACK": 0.0
+   },
+   "path": "boot_standing>TRACK:stand ref:stand",
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.79,
+   "arm_span": 0.61,
+   "splay_span": 0.18,
+   "max_torque_ratio": 0.69,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.23,
+   "peak_ground_force_bw": 2.74,
+   "fp_r0": 0.286,
+   "fp_max": 0.327,
+   "aisle_width": 0.0,
+   "sweep_area_m2": 0.085,
+   "limb_reach_m": 0.236,
+   "fp_excess": 0.042,
+   "wall_hit_ticks": 0,
+   "wall_peak_force_bw": 0.0
+  },
+  {
+   "scenario": "dance",
+   "seed": 2000,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 22.94,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.0800000000000014,
+     "dance:d"
+    ],
+    [
+     2.1000000000000014,
+     "ref:blend"
+    ],
+    [
+     3.1000000000000023,
+     "ref:dance:d"
+    ],
+    [
+     19.919999999999664,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 1.12,
+   "sat_frac": 0.002,
+   "max_qd_ratio": 0.38,
+   "peak_ground_force_bw": 2.53
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2000,
+   "ok": true,
+   "fell": true,
+   "t_fall": 8.94,
+   "t_final_stand": 22.68,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d fall_detected->SETTLE settle_pose->HOLD settled->TRACK:lafan_supine ref:lafan_supine ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.0800000000000014,
+     "dance:d"
+    ],
+    [
+     2.1000000000000014,
+     "ref:blend"
+    ],
+    [
+     3.1000000000000023,
+     "ref:dance:d"
+    ],
+    [
+     8.959999999999898,
+     "fall_detected->SETTLE"
+    ],
+    [
+     10.179999999999872,
+     "settle_pose->HOLD"
+    ],
+    [
+     11.099999999999852,
+     "settled->TRACK:lafan_supine"
+    ],
+    [
+     12.099999999999831,
+     "ref:lafan_supine"
+    ],
+    [
+     19.71999999999967,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 5.15,
+   "sat_frac": 0.045,
+   "max_qd_ratio": 0.97,
+   "peak_ground_force_bw": 54.45
+  },
+  {
+   "scenario": "dance",
+   "seed": 2001,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 23.28,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.4800000000000018,
+     "dance:d"
+    ],
+    [
+     2.5000000000000018,
+     "ref:blend"
+    ],
+    [
+     3.5000000000000027,
+     "ref:dance:d"
+    ],
+    [
+     20.319999999999656,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 1.32,
+   "sat_frac": 0.002,
+   "max_qd_ratio": 0.37,
+   "peak_ground_force_bw": 2.75
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2001,
+   "ok": true,
+   "fell": true,
+   "t_fall": 8.92,
+   "t_final_stand": 23.76,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d fall_detected->SETTLE settle_pose->HOLD settled->TRACK:lafan_supine ref:lafan_supine ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.4800000000000018,
+     "dance:d"
+    ],
+    [
+     2.5000000000000018,
+     "ref:blend"
+    ],
+    [
+     3.5000000000000027,
+     "ref:dance:d"
+    ],
+    [
+     8.939999999999898,
+     "fall_detected->SETTLE"
+    ],
+    [
+     11.479999999999844,
+     "settle_pose->HOLD"
+    ],
+    [
+     12.17999999999983,
+     "settled->TRACK:lafan_supine"
+    ],
+    [
+     13.179999999999808,
+     "ref:lafan_supine"
+    ],
+    [
+     20.799999999999645,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 7.12,
+   "sat_frac": 0.087,
+   "max_qd_ratio": 1.29,
+   "peak_ground_force_bw": 92.72
+  },
+  {
+   "scenario": "dance",
+   "seed": 2002,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 22.84,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.0400000000000014,
+     "dance:d"
+    ],
+    [
+     2.0600000000000014,
+     "ref:blend"
+    ],
+    [
+     3.0600000000000023,
+     "ref:dance:d"
+    ],
+    [
+     19.879999999999665,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 1.28,
+   "sat_frac": 0.002,
+   "max_qd_ratio": 0.36,
+   "peak_ground_force_bw": 3.15
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2002,
+   "ok": true,
+   "fell": true,
+   "t_fall": 11.98,
+   "t_final_stand": 25.8,
+   "path": "boot_standing->TRACK:stand ref:stand ref:blend ref:dance:d fall_detected->SETTLE settle_pose->HOLD settled->TRACK:lafan_supine ref:lafan_supine ref:stand",
+   "events": [
+    [
+     0.02,
+     "boot_standing->TRACK:stand"
+    ],
+    [
+     0.02,
+     "ref:stand"
+    ],
+    [
+     2.0400000000000014,
+     "dance:d"
+    ],
+    [
+     2.0600000000000014,
+     "ref:blend"
+    ],
+    [
+     3.0600000000000023,
+     "ref:dance:d"
+    ],
+    [
+     11.999999999999833,
+     "fall_detected->SETTLE"
+    ],
+    [
+     13.5199999999998,
+     "settle_pose->HOLD"
+    ],
+    [
+     14.219999999999786,
+     "settled->TRACK:lafan_supine"
+    ],
+    [
+     15.219999999999764,
+     "ref:lafan_supine"
+    ],
+    [
+     22.839999999999602,
+     "ref:stand"
+    ]
+   ],
+   "max_torque_ratio": 11.43,
+   "sat_frac": 0.084,
+   "max_qd_ratio": 2.2,
+   "peak_ground_force_bw": 21.19
+  }
+ ],
+ "summary": {
+  "boot_standing": [
+   0,
+   3
+  ],
+  "dance": [
+   3,
+   3
+  ],
+  "dance_push": [
+   3,
+   3
+  ]
+ }
+}

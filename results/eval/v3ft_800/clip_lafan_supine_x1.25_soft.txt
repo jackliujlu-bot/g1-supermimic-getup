@@ -1,0 +1,9 @@
+/path/to/workspace/supermimic/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+seed 0: fail  max uprightness 1.00  final pelvis z 0.34  peak qd 37.7
+seed 1: fail  max uprightness 1.00  final pelvis z 0.74  peak qd 16.0
+seed 2: fail  max uprightness 1.00  final pelvis z 0.75  peak qd 16.5
+seed 3: fail  max uprightness 0.92  final pelvis z 0.29  peak qd 36.4
+seed 4: fail  max uprightness 1.00  final pelvis z 0.74  peak qd 17.8
+seed 5: fail  max uprightness 0.99  final pelvis z 0.08  peak qd 31.7
+lafan_supine_x1.25.npz soft=1.0 terrain=None: stood 0/6

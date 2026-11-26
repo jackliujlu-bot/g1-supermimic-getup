@@ -1,0 +1,22 @@
+[real] native service before takeover: ''
+[run] DAMPING. press 'g'+Enter (or remote START / A) to engage. R2 or L2+B = damping.
+[ 20.26] ENGAGED (get-up/stand policy)
+[ 20.26] boot_not_standing->SETTLE
+[ 20.99] diag mode=SETTLE ref=- end=- stable=0 up=0.009 gyro=0.69 dq=0.72 qd=3.89
+[ 22.00] diag mode=SETTLE ref=- end=- stable=0 up=0.065 gyro=0.09 dq=1.08 qd=0.96
+[ 22.22] settled->TRACK:getup_supine
+[ 23.01] diag mode=TRACK ref=getup_blend end=False stable=0 up=0.014 gyro=0.04 dq=0.28 qd=0.52
+[ 24.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.185 gyro=0.28 dq=0.42 qd=1.13
+[ 25.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.396 gyro=0.15 dq=1.15 qd=4.07
+[ 25.55] diverged->SETTLE
+[ 25.99] diag mode=SETTLE ref=getup_supine end=False stable=0 up=0.043 gyro=0.30 dq=1.50 qd=2.60
+[ 26.60] settled->TRACK:getup_supine
+[ 27.00] diag mode=TRACK ref=getup_blend end=False stable=0 up=0.021 gyro=0.13 dq=0.34 qd=0.46
+[ 28.01] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.182 gyro=0.57 dq=0.49 qd=1.19
+[ 29.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.639 gyro=0.42 dq=0.43 qd=1.77
+[ 30.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.872 gyro=0.62 dq=0.52 qd=3.12
+[ 30.99] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.559 gyro=3.08 dq=1.17 qd=8.69
+[ 31.19] DAMPING
+[run] stop requested
+[run] log -> live_20261124_161518.npz
+[run] damped and handed back; exit

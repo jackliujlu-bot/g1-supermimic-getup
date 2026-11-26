@@ -1,0 +1,11 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9983723958333334,
+ "body_pos_err_m": 0.3938404619693756,
+ "joint_pos_err_rad": 0.6643128196398417,
+ "failed_clips": [
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A310",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A309",
+  "dance_latino_jive_sequence_R_002__A322"
+ ]
+}

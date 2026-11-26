@@ -1,0 +1,7 @@
+DANCES success 0.99609375 episodes 3072 joint_err 0.9347481727600098
+GETUP hard: 0/40 {'prone': 0, 'random': 0, 'side': 0, 'sitting': 0, 'supine': 0}
+GETUP soft: 0/40 {'prone': 0, 'random': 0, 'side': 0, 'sitting': 0, 'supine': 0}
+DANCE+PUSH 0 / 24
+replay--soft_0.6.txt ['live1_init_q.npy stood 0/6', 'live1_stuck.npy stood 0/6', 'live2_track_start.npy stood 0/6']
+replay--soft_1.0.txt ['live1_init_q.npy stood 0/6', 'live1_stuck.npy stood 0/6', 'live2_track_start.npy stood 0/6']
+replay.txt ['live1_init_q.npy stood 0/6', 'live1_stuck.npy stood 0/6', 'live2_track_start.npy stood 0/6']

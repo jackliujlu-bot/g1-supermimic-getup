@@ -1,0 +1,13 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9983723958333334,
+ "body_pos_err_m": 0.35213127732276917,
+ "joint_pos_err_rad": 0.7593982617060343,
+ "failed_clips": [
+  "dance_latino_jive_sequence_R_004__A321",
+  "dance_latino_jive_sequence_R_004__A324",
+  "dance_latino_jive_sequence_R_101__A322",
+  "dance_latino_latino_sequence_R_002__A321",
+  "dance_western_ridding_alone_R_003__A307"
+ ]
+}

@@ -1,0 +1,56 @@
+[real] native service before takeover: 'ai'
+[ClientStub] send request error. id: 7076391154707
+[ClientStub] send request error. id: 7079598862342
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7082608340989
+[ClientStub] send request error. id: 7085818252357
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7088828758870
+[ClientStub] send request error. id: 7092037860905
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7095046061120
+[ClientStub] send request error. id: 7098254822922
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7101262397714
+[ClientStub] send request error. id: 7104469588117
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7107474430681
+[ClientStub] send request error. id: 7110679495527
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7113684872518
+[ClientStub] send request error. id: 7116890390306
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7119895688661
+[ClientStub] send request error. id: 7123103043711
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7126110884625
+[ClientStub] send request error. id: 7129317897619
+[real] native damp request -> fsm query code=3102 fsm=None
+[ClientStub] send request error. id: 7132327264556
+[ClientStub] send request error. id: 7135535688816
+[real] native damp request -> fsm query code=3102 fsm=None
+[real] native damping not confirmed; body tilt 93 deg
+[real] native service in damping, releasing it
+[run] DAMPING. press 'g'+Enter (or remote START / A) to engage. R2 or L2+B = damping.
+[250.10] ENGAGED (get-up/stand policy)
+[250.10] boot_lying->SETTLE
+[250.99] diag mode=SETTLE ref=- end=- stable=0 up=0.197 gyro=3.23 dq=2.45 qd=3.29
+[252.00] diag mode=SETTLE ref=- end=- stable=0 up=0.226 gyro=0.82 dq=1.36 qd=6.26
+[253.01] diag mode=SETTLE ref=- end=- stable=0 up=0.175 gyro=0.13 dq=1.13 qd=2.78
+[254.00] diag mode=SETTLE ref=- end=- stable=0 up=0.154 gyro=0.02 dq=0.97 qd=0.04
+[255.00] diag mode=SETTLE ref=- end=- stable=0 up=0.153 gyro=0.02 dq=0.97 qd=0.03
+[255.99] diag mode=SETTLE ref=- end=- stable=0 up=0.152 gyro=0.02 dq=0.97 qd=0.03
+[257.00] diag mode=SETTLE ref=- end=- stable=0 up=0.152 gyro=0.03 dq=0.97 qd=0.02
+[257.99] diag mode=SETTLE ref=- end=- stable=0 up=0.151 gyro=0.01 dq=0.97 qd=0.02
+[258.34] settle_timeout->GETUP
+[259.00] diag mode=GETUP ref=- end=- stable=0 up=0.686 gyro=4.27 dq=1.62 qd=19.08
+[260.01] diag mode=GETUP ref=- end=- stable=0 up=0.926 gyro=9.06 dq=0.90 qd=7.70
+[261.00] diag mode=GETUP ref=- end=- stable=0 up=0.296 gyro=0.86 dq=2.17 qd=4.31
+[262.01] diag mode=GETUP ref=- end=- stable=0 up=0.111 gyro=0.99 dq=2.45 qd=8.37
+[262.35] DAMPING
+[run] stop requested
+[run] log -> live_20261124_111833.npz
+[real] restoring native 'ai' service: (0, None)
+[ClientStub] send request error. id: 7437666484669
+[real] native damp: None
+[run] damped and handed back; exit

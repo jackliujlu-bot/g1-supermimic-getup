@@ -1,0 +1,20 @@
+live1_init_q.npy stood 0/6 t [None, None, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 25.2
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 23.5
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 23.2
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 25.4
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 23.3
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine'] max qd 30.1
+live1_stuck.npy stood 1/6 t [None, 12.5, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.7
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.7
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.5
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine'] max qd 33.4
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.0
+live2_track_start.npy stood 0/6 t [None, None, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.6
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine'] max qd 31.6
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.3
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.6
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.9
+   fail: ['boot_not_standing->SETTLE', 'settle_timeout->DAMP (fallback=damp)'] max qd 15.8

@@ -1,0 +1,8 @@
+DANCES(mjlab, flat) None episodes None joint_err None
+GETUP hard      23/30 {'prone': '5/6', 'random': '5/6', 'side': '5/6', 'sitting': '3/6', 'supine': '5/6'}
+GETUP soft      9/30 {'prone': '0/6', 'random': '3/6', 'side': '2/6', 'sitting': '2/6', 'supine': '2/6'}
+GETUP rough     17/30 {'prone': '4/6', 'random': '4/6', 'side': '3/6', 'sitting': '4/6', 'supine': '2/6'}
+GETUP roughsoft 18/30 {'prone': '4/6', 'random': '4/6', 'side': '3/6', 'sitting': '3/6', 'supine': '4/6'}
+DANCE+PUSH hard  17/18
+DANCE+PUSH soft  12/18
+DANCE+PUSH rough 16/18

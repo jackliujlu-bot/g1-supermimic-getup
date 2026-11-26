@@ -1,0 +1,20 @@
+live1_init_q.npy stood 1/6 t [13.76, None, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 22.7
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 26.0
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 24.2
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine'] max qd 33.1
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 20.3
+live1_stuck.npy stood 0/6 t [None, None, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 22.1
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine'] max qd 38.6
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 27.3
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 23.7
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine'] max qd 33.4
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE'] max qd 28.3
+live2_track_start.npy stood 0/6 t [None, None, None, None, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine'] max qd 28.0
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine'] max qd 37.5
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 22.2
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 21.7
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine', 'fall_detected->SETTLE', 'settled->TRACK:getup_supine'] max qd 37.2
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine', 'diverged->SETTLE', 'settled->TRACK:getup_supine', 'diverged->DAMP (fallback=damp)'] max qd 41.2

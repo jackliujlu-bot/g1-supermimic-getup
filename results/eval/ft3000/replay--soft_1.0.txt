@@ -1,0 +1,6 @@
+live1_init_q.npy stood 5/6 t [10.6, 13.5, 9.3, 10.82, None, 8.82]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 22.2
+live1_stuck.npy stood 6/6 t [14.06, 20.1, 12.5, 11.32, 21.46, 13.46]
+live2_track_start.npy stood 4/6 t [11.64, 7.46, 11.98, 7.48, None, None]
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.8
+   fail: ['boot_not_standing->SETTLE', 'settled->TRACK:getup_supine'] max qd 15.8

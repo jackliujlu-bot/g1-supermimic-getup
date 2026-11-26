@@ -1,0 +1,14 @@
+{
+ "episodes": 2048,
+ "success_rate": 0.9931640625,
+ "body_pos_err_m": 0.17480984330177307,
+ "joint_pos_err_rad": 0.50892373919487,
+ "failed_clips": [
+  "dance_hiphop_hip_hop_iv_R_001__A320",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A309",
+  "inchworm_003__A360_M",
+  "one_leg_jumping_R_002__A359",
+  "sitting_legs_cross_arms_front_stop_002__A100",
+  "sitting_legs_cross_arms_front_stop_003__A098"
+ ]
+}

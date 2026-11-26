@@ -1,0 +1,13 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.998046875,
+ "body_pos_err_m": 0.3915185034275055,
+ "joint_pos_err_rad": 0.7067628502845764,
+ "failed_clips": [
+  "dance_basic_padeburee_270_R_loop_001__A325",
+  "dance_hiphop_hip_hop_iv_R_001__A320",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A309",
+  "dance_latino_jive_sequence_R_002__A321",
+  "dance_western_ridding_alone_4_directions_004__A308"
+ ]
+}

@@ -1,0 +1,5 @@
+{"seed": 5000, "fell_at": null, "pushes": 0, "danced": false, "base_p99": 0.073, "drift_m": 0.003, "yaw_drift_deg": -3.4, "switches": []}
+{"seed": 5001, "fell_at": null, "pushes": 0, "danced": false, "base_p99": 0.07, "drift_m": 0.003, "yaw_drift_deg": 0.1, "switches": []}
+{"seed": 5002, "fell_at": null, "pushes": 0, "danced": false, "base_p99": 0.068, "drift_m": 0.004, "yaw_drift_deg": -1.1, "switches": []}
+{"seed": 5003, "fell_at": null, "pushes": 0, "danced": false, "base_p99": 0.067, "drift_m": 0.002, "yaw_drift_deg": -0.7, "switches": []}
+{"seed": 5004, "fell_at": null, "pushes": 0, "danced": false, "base_p99": 0.073, "drift_m": 0.004, "yaw_drift_deg": -0.6, "switches": []}

@@ -1,0 +1,130 @@
+{
+ "results": [
+  {
+   "scenario": "boot_supine",
+   "seed": 1000,
+   "ok": true,
+   "t_stand": 2.04,
+   "start_pelvis_z": 0.091,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 1.86,
+   "sat_frac": 0.035,
+   "max_qd_ratio": 0.83,
+   "peak_ground_force_bw": 4.52
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1001,
+   "ok": true,
+   "t_stand": 1.28,
+   "start_pelvis_z": 0.086,
+   "final_pelvis_z": 0.756,
+   "max_torque_ratio": 1.68,
+   "sat_frac": 0.082,
+   "max_qd_ratio": 0.82,
+   "peak_ground_force_bw": 4.99
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1002,
+   "ok": true,
+   "t_stand": 2.86,
+   "start_pelvis_z": 0.085,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 1.4,
+   "sat_frac": 0.041,
+   "max_qd_ratio": 0.8,
+   "peak_ground_force_bw": 5.64
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1003,
+   "ok": true,
+   "t_stand": 1.6,
+   "start_pelvis_z": 0.086,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 1.59,
+   "sat_frac": 0.062,
+   "max_qd_ratio": 0.92,
+   "peak_ground_force_bw": 5.18
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1004,
+   "ok": true,
+   "t_stand": 1.22,
+   "start_pelvis_z": 0.083,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 2.0,
+   "sat_frac": 0.05,
+   "max_qd_ratio": 0.74,
+   "peak_ground_force_bw": 5.31
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1005,
+   "ok": true,
+   "t_stand": 1.7,
+   "start_pelvis_z": 0.084,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 2.61,
+   "sat_frac": 0.078,
+   "max_qd_ratio": 0.78,
+   "peak_ground_force_bw": 4.94
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1006,
+   "ok": true,
+   "t_stand": 1.44,
+   "start_pelvis_z": 0.085,
+   "final_pelvis_z": 0.758,
+   "max_torque_ratio": 1.53,
+   "sat_frac": 0.02,
+   "max_qd_ratio": 0.82,
+   "peak_ground_force_bw": 4.58
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1007,
+   "ok": true,
+   "t_stand": 1.76,
+   "start_pelvis_z": 0.089,
+   "final_pelvis_z": 0.756,
+   "max_torque_ratio": 2.37,
+   "sat_frac": 0.032,
+   "max_qd_ratio": 0.81,
+   "peak_ground_force_bw": 5.35
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1008,
+   "ok": true,
+   "t_stand": 2.08,
+   "start_pelvis_z": 0.081,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 1.28,
+   "sat_frac": 0.04,
+   "max_qd_ratio": 0.75,
+   "peak_ground_force_bw": 4.88
+  },
+  {
+   "scenario": "boot_supine",
+   "seed": 1009,
+   "ok": true,
+   "t_stand": 1.28,
+   "start_pelvis_z": 0.08,
+   "final_pelvis_z": 0.756,
+   "max_torque_ratio": 1.97,
+   "sat_frac": 0.072,
+   "max_qd_ratio": 0.75,
+   "peak_ground_force_bw": 5.01
+  }
+ ],
+ "summary": {
+  "boot_supine": [
+   10,
+   10
+  ]
+ }
+}

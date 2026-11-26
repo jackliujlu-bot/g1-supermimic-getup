@@ -1,0 +1,32 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9811197916666666,
+ "body_pos_err_m": 1.0613060394922893,
+ "joint_pos_err_rad": 1.0572199026743572,
+ "failed_clips": [
+  "dance_fresh_001__A466",
+  "dance_hiphop_hip_hop_iv_R_001__A320",
+  "dance_hiphop_hip_hop_iv_R_002__A317",
+  "dance_hiphop_hip_hop_iv_R_002__A320",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A306",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A309",
+  "dance_latino_jive_sequence_R_001__A321",
+  "dance_latino_jive_sequence_R_001__A322",
+  "dance_latino_jive_sequence_R_002__A311",
+  "dance_latino_jive_sequence_R_002__A323",
+  "dance_latino_jive_sequence_R_003__A312",
+  "dance_latino_jive_sequence_R_003__A313",
+  "dance_latino_jive_sequence_R_004__A321",
+  "dance_latino_jive_sequence_R_004__A323",
+  "dance_latino_jive_sequence_R_101__A322",
+  "dance_latino_latino_sequence_R_001__A323",
+  "dance_latino_latino_sequence_R_002__A321",
+  "dance_latino_latino_sequence_R_004__A315",
+  "dance_macarena_003__A464",
+  "dance_western_ridding_alone_4_directions_004__A306",
+  "dance_western_ridding_alone_4_directions_004__A310",
+  "dance_western_ridding_alone_R_004__A306"
+ ]
+}

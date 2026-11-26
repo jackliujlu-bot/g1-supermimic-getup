@@ -1,0 +1,17 @@
+[real] native service before takeover: ''
+[run] DAMPING. press 'g'+Enter (or remote START / A) to engage. R2 or L2+B = damping.
+[  8.72] ENGAGED (get-up/stand policy)
+[  8.72] boot_not_standing->SETTLE
+[  9.00] diag mode=SETTLE ref=- end=- stable=0 up=0.208 gyro=0.02 dq=1.98 qd=0.04
+[ 10.00] diag mode=SETTLE ref=- end=- stable=0 up=0.073 gyro=0.38 dq=1.02 qd=1.08
+[ 10.66] settled->TRACK:getup_supine
+[ 11.00] diag mode=TRACK ref=getup_blend end=False stable=0 up=0.007 gyro=0.23 dq=0.18 qd=0.94
+[ 12.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.008 gyro=0.02 dq=0.40 qd=0.87
+[ 13.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.156 gyro=0.49 dq=1.07 qd=2.71
+[ 14.00] diag mode=TRACK ref=getup_supine end=False stable=0 up=0.587 gyro=1.66 dq=1.36 qd=1.14
+[ 14.15] fall_detected->SETTLE
+[ 15.00] diag mode=SETTLE ref=getup_supine end=False stable=0 up=0.092 gyro=0.10 dq=1.47 qd=0.75
+[ 15.08] DAMPING
+[run] stop requested
+[run] log -> live_20261124_160628.npz
+[run] damped and handed back; exit

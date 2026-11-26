@@ -1,0 +1,9 @@
+/path/to/workspace/supermimic/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+seed 0: UP  max uprightness 1.00  final pelvis z 0.77  peak qd 18.8  last-1s max qd 1.52 (joint 0)  mean 0.17
+seed 1: CALM  max uprightness 1.00  final pelvis z 0.76  peak qd 9.4  last-1s max qd 0.89 (joint 14)  mean 0.13
+seed 2: UP  max uprightness 1.00  final pelvis z 0.77  peak qd 18.5  last-1s max qd 1.53 (joint 4)  mean 0.14
+seed 3: CALM  max uprightness 1.00  final pelvis z 0.77  peak qd 12.9  last-1s max qd 0.99 (joint 0)  mean 0.14
+seed 4: UP  max uprightness 1.00  final pelvis z 0.77  peak qd 15.3  last-1s max qd 1.19 (joint 4)  mean 0.16
+seed 5: UP  max uprightness 1.00  final pelvis z 0.77  peak qd 16.9  last-1s max qd 1.57 (joint 10)  mean 0.18
+lafan_prone_x1.25.npz soft=0.6 terrain=0.015: up 6/6 calm 2/6 jitter_rms 0.227

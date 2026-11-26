@@ -1,0 +1,298 @@
+{
+ "results": [
+  {
+   "scenario": "boot_standing",
+   "seed": 1000,
+   "ok": true,
+   "t_stand": 0.18,
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.758,
+   "max_torque_ratio": 0.5,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.19,
+   "peak_ground_force_bw": 3.58
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1001,
+   "ok": true,
+   "t_stand": 0.2,
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 0.46,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.19,
+   "peak_ground_force_bw": 3.42
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1002,
+   "ok": true,
+   "t_stand": 0.24,
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 0.41,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.19,
+   "peak_ground_force_bw": 3.11
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1003,
+   "ok": true,
+   "t_stand": 0.12,
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 0.34,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.2,
+   "peak_ground_force_bw": 3.32
+  },
+  {
+   "scenario": "boot_standing",
+   "seed": 1004,
+   "ok": true,
+   "t_stand": 0.2,
+   "start_pelvis_z": 0.79,
+   "final_pelvis_z": 0.757,
+   "max_torque_ratio": 0.38,
+   "sat_frac": 0.0,
+   "max_qd_ratio": 0.19,
+   "peak_ground_force_bw": 3.42
+  },
+  {
+   "scenario": "dance",
+   "seed": 2000,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 20.02,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     16.739999999999732,
+     "dance_done->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.26,
+   "sat_frac": 0.021,
+   "max_qd_ratio": 0.79,
+   "peak_ground_force_bw": 4.58
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2000,
+   "ok": true,
+   "fell": true,
+   "t_fall": 9.66,
+   "t_final_stand": 13.76,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     9.679999999999882,
+     "fall_detected->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 8.44,
+   "sat_frac": 0.05,
+   "max_qd_ratio": 1.35,
+   "peak_ground_force_bw": 17.21
+  },
+  {
+   "scenario": "dance",
+   "seed": 2001,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 19.54,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     16.739999999999732,
+     "dance_done->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.32,
+   "sat_frac": 0.035,
+   "max_qd_ratio": 0.77,
+   "peak_ground_force_bw": 4.19
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2001,
+   "ok": true,
+   "fell": true,
+   "t_fall": 5.5200000000000005,
+   "t_final_stand": 12.040000000000001,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     5.53999999999997,
+     "fall_detected->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 9.42,
+   "sat_frac": 0.066,
+   "max_qd_ratio": 1.51,
+   "peak_ground_force_bw": 25.76
+  },
+  {
+   "scenario": "dance",
+   "seed": 2002,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 19.3,
+   "events": [
+    [
+     1.1400000000000006,
+     "dance:d"
+    ],
+    [
+     16.679999999999733,
+     "dance_done->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.45,
+   "sat_frac": 0.036,
+   "max_qd_ratio": 0.77,
+   "peak_ground_force_bw": 5.67
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2002,
+   "ok": true,
+   "fell": true,
+   "t_fall": 7.8,
+   "t_final_stand": 12.1,
+   "events": [
+    [
+     1.1400000000000006,
+     "dance:d"
+    ],
+    [
+     7.819999999999921,
+     "fall_detected->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.97,
+   "sat_frac": 0.053,
+   "max_qd_ratio": 0.95,
+   "peak_ground_force_bw": 31.86
+  },
+  {
+   "scenario": "dance",
+   "seed": 2003,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 20.0,
+   "events": [
+    [
+     1.1400000000000006,
+     "dance:d"
+    ],
+    [
+     16.679999999999733,
+     "dance_done->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.31,
+   "sat_frac": 0.019,
+   "max_qd_ratio": 0.8,
+   "peak_ground_force_bw": 4.0
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2003,
+   "ok": true,
+   "fell": true,
+   "t_fall": 8.34,
+   "t_final_stand": 12.72,
+   "events": [
+    [
+     1.1400000000000006,
+     "dance:d"
+    ],
+    [
+     8.35999999999991,
+     "fall_detected->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 7.2,
+   "sat_frac": 0.088,
+   "max_qd_ratio": 1.07,
+   "peak_ground_force_bw": 22.11
+  },
+  {
+   "scenario": "dance",
+   "seed": 2004,
+   "ok": true,
+   "fell": false,
+   "t_fall": null,
+   "t_final_stand": 19.68,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     16.739999999999732,
+     "dance_done->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 1.73,
+   "sat_frac": 0.032,
+   "max_qd_ratio": 0.72,
+   "peak_ground_force_bw": 4.55
+  },
+  {
+   "scenario": "dance_push",
+   "seed": 2004,
+   "ok": true,
+   "fell": true,
+   "t_fall": 6.66,
+   "t_final_stand": 11.700000000000001,
+   "events": [
+    [
+     1.2000000000000006,
+     "dance:d"
+    ],
+    [
+     6.6799999999999455,
+     "fall_detected->GETUP"
+    ]
+   ],
+   "max_torque_ratio": 7.42,
+   "sat_frac": 0.041,
+   "max_qd_ratio": 1.13,
+   "peak_ground_force_bw": 29.43
+  }
+ ],
+ "summary": {
+  "boot_standing": [
+   5,
+   5
+  ],
+  "dance": [
+   5,
+   5
+  ],
+  "dance_push": [
+   5,
+   5
+  ]
+ }
+}

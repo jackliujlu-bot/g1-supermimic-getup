@@ -1,0 +1,13 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9977213541666666,
+ "body_pos_err_m": 1.094205419222514,
+ "joint_pos_err_rad": 0.8763789733250936,
+ "failed_clips": [
+  "dance_basic_padeburee_270_R_loop_002__A323",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_001__A309",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A309",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A308"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "episodes": 3072,
+ "success_rate": 0.9947916666666666,
+ "body_pos_err_m": 1.117725094159444,
+ "joint_pos_err_rad": 0.8958431879679362,
+ "failed_clips": [
+  "dance_hiphop_hip_hop_iv_R_002__A317",
+  "dance_hiphop_hip_hop_iv_R_002__A320",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_002__A309",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A307",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A308",
+  "dance_hiphop_shuffle_sequence_v_001_R_003__A310",
+  "dance_latino_jive_sequence_R_001__A322",
+  "dance_latino_jive_sequence_R_002__A312",
+  "dance_latino_jive_sequence_R_003__A312",
+  "dance_latino_jive_sequence_R_004__A321"
+ ]
+}

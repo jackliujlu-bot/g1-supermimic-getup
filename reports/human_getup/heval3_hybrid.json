@@ -1,0 +1,105 @@
+{
+ "open": {
+  "ok": "30/30",
+  "t_stand": [
+   5.37,
+   8.76
+  ],
+  "sweep_m2": [
+   1.18,
+   2.41
+  ],
+  "arm_span": [
+   1.9,
+   2.49
+  ],
+  "splay_span": [
+   1.54,
+   2.37
+  ],
+  "qd_ratio": [
+   0.78,
+   1.33
+  ],
+  "sat": [
+   0.09,
+   0.23
+  ],
+  "paths": {
+   "": 17,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK human_getup_done>GETUP": 12,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK track_diverged>GETUP": 1
+  },
+  "fails": []
+ },
+ "box15": {
+  "ok": "25/25",
+  "t_stand": [
+   5.49,
+   10.16
+  ],
+  "sweep_m2": [
+   1.23,
+   3.0
+  ],
+  "arm_span": [
+   1.96,
+   3.2
+  ],
+  "splay_span": [
+   1.6,
+   2.48
+  ],
+  "qd_ratio": [
+   0.88,
+   1.86
+  ],
+  "sat": [
+   0.11,
+   0.24
+  ],
+  "paths": {
+   "": 11,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK human_getup_done>GETUP": 9,
+   "lying>SETTLE routine:getup_s88 settled>HTRACK track_diverged>GETUP": 1,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK track_diverged>GETUP": 4
+  },
+  "wall_hit": "9/25",
+  "fails": []
+ },
+ "box30": {
+  "ok": "25/25",
+  "t_stand": [
+   5.65,
+   10.16
+  ],
+  "sweep_m2": [
+   1.14,
+   2.18
+  ],
+  "arm_span": [
+   1.9,
+   2.49
+  ],
+  "splay_span": [
+   1.52,
+   2.37
+  ],
+  "qd_ratio": [
+   0.89,
+   1.86
+  ],
+  "sat": [
+   0.1,
+   0.24
+  ],
+  "paths": {
+   "": 11,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK human_getup_done>GETUP": 11,
+   "lying>SETTLE routine:getup_s88 settled>HTRACK track_diverged>GETUP": 1,
+   "boot_lying>SETTLE routine:getup_s88 settled>HTRACK track_diverged>GETUP": 2
+  },
+  "wall_hit": "4/25",
+  "fails": []
+ }
+}
